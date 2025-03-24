@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="En Construcciones Jose Maria Moreno CB ofrecemos nuestra larga experiencia de mas de 25 años en el sector de la construccion y reforma, para que haga realidad sus proyectos. Cuenta con nuestra orientacion, consejos y profesionalidad para llevarlos a cabo de forma. Nuestros clientes nos avalan.">
+    <meta name="keywords" content="Construccion, Reformas, Obra">
+    <meta name="author" content="Joma Moreno">
+    <meta name="lang" content="es">
+    <meta name="revisit-after" content="7 days">
+    <meta name="category" content="Construcciones y reformas">
+    
+    <!--Favicon-->
+    <link rel="icon" type="image/x-icon" href="../favicon.ico?v=2">
+    
+    <!--Css-->
+    <link rel="stylesheet" href="../estilos/estilos.css">
+
+    <title> Construcciones Jose Maria Moreno CB </title>
+</head>
+
+<body>
+
+    <div class="principal">
+        
+
+        <!--Cabecera-->
+
+        <header>
+            <img class="logo" src="../assets/images/logo.png" alt="logo" width="225" height="225">
+            <h1>Construcciones Jose Maria Moreno CB</h1>
+        </header>
+
+
+        <!--Barra de navegación-->
+
+        <nav>
+            <ul class="caja1">
+                <li>
+                    <a class="enlace" href="../index.html">Inicio</a>
+                </li>
+                <li>
+                    <a class="enlace" href="productos.html">Trabajos</a>
+                </li>
+                <li>
+                    <a class="enlace" href="contacto.html">Contacto</a>
+                </li>
+                <li>
+                    <a class="enlace activo" href="#">Presupuesto</a>
+                </li>
+            </ul>
+            <form class="caja2">
+                <input type="search" placeholder="Buscar">
+                <input type="submit" value="Busqueda">
+            </form>
+        </nav>
+
+
+        <!--Sección principal-->
+
+        <main>
+            <div class="presupuesto">
+                <h3>Presupuesto</h3>
+                <p>Rellene el siguiente formulario indicando en el cuadro de información la obra que quiere realizar,  con una forma de contacto y le haremos un presupuesto estimado. 
+                    Nos pondremos en contacto con usted por la vía más adecuada para entregárselo y explicarle de forma correcta el procedimiento a seguir para realizar el proyecto.
+                </p>
+            </div>
+                
+            <div class="caja-form">
+                <form id="formulario" name="formulario" action="#" method="get" target="_self">
+                    <ul class="lista-form">
+                        <li>
+                            <label for="nombre">Nombre</label>
+                            <input type="text" id="nombre" name="nombre" placeholder="Escriba su nombre" pattern="[A-Z a-z]{3,15}" title="Escriba solo letras y entre 3 y 15 caracteres" required>
+                        </li>
+                        <li>
+                            <label for="apellidos">Apellidos</label>
+                            <input type="text" id="apellidos" name="apellidos" placeholder="Escriba sus apellidos" pattern="[A-Z a-z]{4,40}" title="Escriba solo letras y entre 4 y 40 caracteres" required>
+                        </li>
+                        <li>
+                            <label for="email">Correo electrónico</label>
+                            <input type="email" id="email" name="email" placeholder="Escriba su correo electrónico" pattern="[A-Za-z0-9_-.]+@[a-z0-9_-.]+\.[a-z]{2,8}" title="Escriba su correo electrónico" required>
+                        </li>
+                        <li>
+                            <label for="telefono">Teléfono</label>
+                            <input type="tel" id="telefono" name="telefono" placeholder="Escriba su teléfono" pattern="[0-9]{9}" title="Escriba solo números" required>
+                        </li>
+                        <li>
+                            <label for="mensaje">Información</label>
+                            <textarea rows="10" id="mensaje" placeholder="Aporte aquí su información sobre el presupuesto"></textarea>
+                        </li>
+                        <li class="caja-form1">
+                            <label for="privacidad">Política de privacidad</label>
+                            <input type="checkbox" id="privacidad" title="Debe aceptar la política de privacidad para enviar la solicitud" required>
+                        </li>
+                        <li class="botones">
+                            <button type="reset">Borrar</button>
+                            <button type="submit">Enviar</button>
+                        </li>
+                    </ul>
+                </form>
+            </div>
+        </main>
+
+
+        <!--Barra de navegación lateral-->
+
+        <aside>
+            <ul class="caja3">
+                <li>
+                    <a class="enlace1" href="legislacion.html">Legislación</a>
+                </li>
+                <li>
+                    <a class="enlace1" href="asociados.html">Asociados</a>
+                </li>
+                <li>
+                    <a class="enlace1" href="videos.html">Videos</a>
+                </li>
+            </ul>
+        </aside>
+
+
+        <!--Pie de página-->
+
+        <footer>
+            <p>&copy; Todos los derechos reservados</p>
+            <div class="pie">
+                <p>Síguenos en:</p>
+                <img class="logo1" src="../assets/images/find-us-on-facebook-logo-svgrepo-com.svg" alt="Logotipo de Facebook" width="800" height="800">
+                <a class="enlace" href="https://www.facebook.com/campingbungalows.labolera">Facebook</a>
+                <img class="logo2" src="../assets/images/youtube-svgrepo-com.svg" alt="Logotipo de Youtube" width="800" height="800"> 
+                <a class="enlace" href="https://www.youtube.com/watch?v=E3QV-Q6gMbI&list=PL3ANikm00BsQ8XFvS35hcydenPT0xJxWL&ab_channel=fischerIb%C3%A9rica">Youtube</a> 
+            </div>
+        </footer>
+    </div>
+
+</body>
